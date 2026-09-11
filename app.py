@@ -9,6 +9,12 @@ from datetime import datetime
 
 load_dotenv()
 
+try:
+    import spaces
+    HAS_SPACES = True
+except ImportError:
+    HAS_SPACES = False
+
 # ==========================================
 # BACKEND LOGIC (AI & HISTORY)
 # ==========================================
@@ -115,6 +121,9 @@ def investigate(case_text, evidence_removal):
     })
 
     yield detective_response, evidence_response, suspect_response, skeptic_response, chief_response, "Investigation Complete. Report saved to History."
+
+if HAS_SPACES:
+    investigate = spaces.GPU(investigate)
 
 # ==========================================
 # HISTORY & AUTH HANDLERS
