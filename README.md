@@ -2,6 +2,8 @@
 
 A beginner-friendly multi-agent AI mystery detective web application using Gemini + Python + Gradio.
 
+🐳 **Docker Image Available:** [https://hub.docker.com/r/arpit00011/aurora-ai](https://hub.docker.com/r/arpit00011/aurora-ai)
+
 ## Local Setup
 
 1. **Install dependencies:**
