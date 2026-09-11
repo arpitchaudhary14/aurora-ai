@@ -4,6 +4,8 @@ A beginner-friendly multi-agent AI mystery detective web application using Gemin
 
 🐳 **Docker Image Available:** [https://hub.docker.com/r/arpit00011/aurora-ai](https://hub.docker.com/r/arpit00011/aurora-ai)
 
+🚀 **Live Demo:** [https://huggingface.co/spaces/Arpit0/aurora-ai](https://huggingface.co/spaces/Arpit0/aurora-ai)
+
 ## Local Setup
 
 1. **Install dependencies:**
